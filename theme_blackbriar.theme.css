@@ -6,6 +6,8 @@
  * @description theme for blackbriar currently in beta
 */
 
+@import url('https://carmut.github.io/theme_blackbriar_beta/testcloe.theme.css');
+
 :root {
     --main-bg-color: black;
     --main-border-color: white;
@@ -13,4 +15,3 @@
     --soft-border-color: rgb(20, 20, 20)
 }
 
-@import url('https://carmut.github.io/theme_blackbriar_beta/testcloe.theme.css');

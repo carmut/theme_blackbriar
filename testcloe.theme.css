@@ -159,10 +159,11 @@
 }
 
 /* acompiler */
-.selectorButtonSelected-3cQUnj{
+.selectorButtonSelected-3cQUnj {
     border: var(--secondary-border-color) solid 1px !important;
 }
-.item-2OyinQ:hover{
+
+.item-2OyinQ:hover {
     background: black !important;
 }
 
@@ -543,8 +544,9 @@
     background: black;
 }
 
-.option-Uc12mm,.card-m7VgZ8{
-    background:black !important;
+.option-Uc12mm,
+.card-m7VgZ8 {
+    background: black !important;
 }
 
 /*integration*/
@@ -707,12 +709,14 @@ note-3M15gE {
 }
 
 /* cmd */
-.autocomplete-3NRXG8,.wrapper-3z7DuG{
+.autocomplete-3NRXG8,
+.wrapper-3z7DuG {
     background: var(--main-bg-color) !important;
 }
 
 /* ping everyone */
-.body-2rDNbs,.footer-2aeMle{
+.body-2rDNbs,
+.footer-2aeMle {
     background: black !important;
 }
 

@@ -1,0 +1,722 @@
+/*fond chat*/
+.chatContent-3KubbW {
+    background-image: url("data:image/png;base64,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") !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: var(--main-bg-color) !important;
+}
+
+/*filtre fd*/
+.messagesWrapper-RpOMA3 {
+
+    backdrop-filter: brightness(60%)blur(1px);
+}
+
+/*couleur text message*/
+.markup-eYLPri {
+    color: rgb(255, 255, 255);
+
+}
+
+/*zone de texte*/
+.scrollableContainer-15eg7h {
+    background: var(--main-bg-color) !important;
+    border: 1px rgb(255, 0, 0) solid;
+}
+
+.cozy-VmLDNB .timestamp-p1Df1m,
+.content-vSHmMD {
+    color: white;
+}
+
+.theme-dark .form-3gdLxP:before {
+    background: var(--main-bg-color);
+}
+
+/*barre du dessus*/
+.theme-dark .themed-Hp1KC_,
+.theme-dark .children-3xh0VB:after {
+    background: var(--main-bg-color);
+}
+
+.searchBar-jGtisZ {
+    background: var(--main-bg-color);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+/*menu cote (serveur)*/
+.container-2o3qEW,
+.members-3WRCEx {
+    background: var(--main-bg-color);
+}
+
+.layout-qmrhw1 {
+    border: black 1px solid;
+    background: var(--main-bg-color) !important;
+    color: white;
+}
+
+.member-48YF_l {
+    background: black !important;
+}
+
+.layout-qmrhw1:hover {
+    background-color: green;
+}
+
+/*barre de gauche (serveur)*/
+.theme-dark .container-1NXEtd {
+    background: var(--main-bg-color);
+}
+
+.modeSelected-3DmyhH .link-1_kTxV {
+    background: var(--main-bg-color) !important;
+    border: white solid 1px;
+}
+
+.clickable-vvKY2q .header-3OsQeK:hover,
+.selected-1GtAC5 .header-3OsQeK {
+    background: var(--main-bg-color) !important;
+}
+
+/*bas gauche menu perso*/
+.theme-dark .container-YkUktl {
+    background: var(--main-bg-color);
+}
+
+/*bouton pop message*/
+.wrapper-2vIMkT {
+    background: var(--main-bg-color) !important;
+    border: white 1px solid;
+}
+
+.flexible-3B4jwn {
+    background: var(--main-bg-color);
+}
+
+/*barre serveur*/
+.guilds-2JjMmN {
+    background: var(--main-bg-color);
+}
+
+.expandedFolderBackground-1kSAf6 {
+    border: solid white 1px;
+    background: var(--main-bg-color);
+}
+
+
+.expandedFolderBackground-1kSAf6.collapsed-uGXEbi,
+.expandedFolderBackground-1kSAf6.collapsed-uGXEbi.hover-3m7-WT {
+    border: none
+}
+
+/*barre du haut*/
+.bg-1QIAus {
+    background: var(--main-bg-color);
+}
+
+/*menu en call*/
+.container-1zzFcN,
+.theme-dark .panel-2ZFCRb {
+    background: var(--main-bg-color) !important;
+}
+
+.button-1EGGcP.buttonColor-3bP3fX {
+    border: solid white 1px;
+    background: var(--main-bg-color) !important;
+}
+
+/*soundboard deployer*/
+.picker-20lcBA {
+    background: var(--main-bg-color) !important;
+}
+
+.inner-1NoIT5,
+.soundButton-2P2Ua2 {
+    background: var(--main-bg-color);
+}
+
+
+
+.soundInfo-1vWb45 {
+    background: var(--main-bg-color);
+}
+
+.soundButton-2P2Ua2 {
+    border: white solid 1px;
+}
+
+.categoryList-iuh2t0 {
+    background: var(--main-bg-color);
+}
+
+/* partage d'écran */
+.modalSize-3WSXDU,
+.footer-IubaaS {
+    background: var(--main-bg-color);
+    border: none;
+}
+
+/* acompiler */
+.selectorButtonSelected-3cQUnj{
+    border: var(--secondary-border-color) solid 1px !important;
+}
+.item-2OyinQ:hover{
+    background: black !important;
+}
+
+/*boite de reception*/
+
+.container-_dQaft {
+    border: solid red 1px;
+}
+
+/* haut */
+.header-145e10.expanded-2H1xJ- {
+    background: var(--main-bg-color) !important;
+
+}
+
+/* bas */
+.container-1A0qQO,
+.scroller-145h9c,
+.scroller-MIi2ab {
+    background: var(--main-bg-color) !important;
+}
+
+.channelHeader-DFRX8q,
+.messageContainer-3VTXBC,
+.messages-23can0,
+.friendRequestsButton-77veU7 {
+    background: var(--main-bg-color) !important;
+
+}
+
+
+
+.size32-1NLMUP {
+    border: red solid 1.5px;
+    background: var(--main-bg-color) !important;
+}
+
+/*call*/
+
+.lookFilled-1H2Jvj.colorPrimary-2-Lusz,
+.root-1BPI9i,
+.lookFilled-1H2Jvj.colorBrand-2M3O3N {
+    background: var(--main-bg-color) !important;
+    border: white solid 1.5px;
+}
+
+.tileChild-2k7Wqh {
+    background: var(--main-bg-color);
+}
+
+/* menu ajout personne a l'appel */
+.modal-Z9r_Gm,
+.theme-dark .footer-Ql9fbL,
+.input-3O04eu,
+.temporaryMembershipContainerBackground-13Hf5U {
+    background: var(--main-bg-color);
+}
+
+.searchBar-_eXmb9 {
+    border: white solid 1px;
+    background: var(--main-bg-color) !important;
+}
+
+/* menu activitée */
+.rootWithShadow-2hdL2J:has(.modalHeader-3X0A4K),
+.activityItem-1Z9CTr {
+    background: var(--main-bg-color) !important;
+    border: white solid 1.5px !important;
+}
+
+.modalHeader-3X0A4K,
+.scroller-3oxliS {
+    background: var(--main-bg-color);
+}
+
+/* message epingler */
+.messagesPopoutWrap-3zryHW,
+.footer-5ji8u1 {
+    background: var(--main-bg-color) !important;
+}
+
+.header-1w9Q93 {
+    background: var(--main-bg-color) !important;
+}
+
+.messageGroupWrapper-1jf_7C,
+.attachment-1PZZB2.newMosaicStyle-35X6XO {
+    background: var(--main-bg-color) !important;
+}
+
+/* fils */
+
+.list-3YHPPb,
+.header-3_zmOb {
+    background: var(--main-bg-color);
+    color: white;
+}
+
+.searchBox-3IjAC1 {
+    background: var(--main-bg-color);
+    border: white solid 1.5px;
+}
+
+.browser-mnQ1T7 {
+    border: white solid 1.5px;
+}
+
+/* resherche resultats */
+
+.resultsGroup-cfY57t,
+.theme-dark .focused-2FU0YH {
+    background: var(--main-bg-color);
+}
+
+.menu-2TXYjN {
+    border: white 1.5px solid;
+}
+
+.searchResultsWrap-5RVOkx,
+.searchHeader-1r_ZSh {
+    background: var(--main-bg-color);
+}
+
+.side-1lrxIh .themed-qqoYp3.selected-1sf9UK.item-2GWPIy,
+.searchResult-O9NDji {
+    border: white solid 1.5px;
+    background: var(--main-bg-color);
+}
+
+/* camera */
+
+.optionBox-1UOevl {
+    background: var(--main-bg-color) !important;
+}
+
+.container-2oNtJn {
+    background: var(--main-bg-color) !important;
+}
+
+.container-2oNtJn {
+    border: white solid 1.5px;
+}
+
+/* emoji vocal */
+
+.searchBar-2M9mRP {
+    border: white solid 1.5px;
+}
+
+.container-3a5mk-,
+.emojiPickerHeader-2mWh2T {
+    background: var(--main-bg-color);
+}
+
+/* creation salon */
+
+.itemFilled-2Fo7lr,
+.itemFilled-2Fo7lr[aria-checked=true] {
+    background: var(--main-bg-color);
+    border: white solid 1.5px;
+}
+
+.item-1TA5qI,
+.item-1TA5qI[aria-checked=true] {
+    color: white;
+}
+
+/* bouton ajout et explo serveur */
+
+.circleIconButton-1VxDrg {
+    background: var(--main-bg-color);
+    color: red;
+}
+
+.circleIconButton-1VxDrg.selected-2r1Hvo {
+    background: red;
+    color: var(--main-bg-color);
+}
+
+/* signaler un raid */
+
+.checkboxContainer-yVbwWS {
+    background: var(--main-bg-color) !important;
+    border: solid white 1.5px;
+}
+
+.theme-dark .checkbox-1LuCGM {
+    border: solid white 1.5px !important;
+    background: var(--main-bg-color) !important;
+}
+
+/* channel iconne */
+
+.emptyChannelIcon-1YdEz2 {
+    background: var(--main-bg-color) !important;
+}
+
+/* option salon */
+
+.sidebarRegionScroller-FXiQOh,
+.contentRegionScroller-2_GT_N,
+.settingCard-xZSDjS {
+    background: var(--main-bg-color) !important;
+}
+
+/* -------------------------------------------------- */
+/* |         couleur - compiler - au dessus         | */
+/* -------------------------------------------------- */
+
+.directoryContainer-z-0pgp,
+.category-2OvQ93,
+.search-2RHhW6,
+.card-2xymMp,
+.card-2xymMp,
+.container-SidGiM {
+    background-color: var(--main-bg-color, black) !important;
+}
+
+.category-2OvQ93,
+.search-2RHhW6,
+.card-2xymMp,
+.container-SidGiM {
+    border: white solid 1.5px !important;
+}
+
+/* panel boost de serveur */
+
+.innerWrapper-MqFL7z,
+.scroller-3u_s5m,
+.header-1aIywd,
+.headerWave-3sTT0Z,
+.topPerksCard-1znJI8,
+.wrapper-2r1p30,
+.container-2cd8Mz,
+.container-1oAagU,
+.content-2eQb8J,
+.icon-2TbMdT,
+.upsellFooter-1H_OCF {
+    background: none;
+    background-color: black !important;
+}
+
+.icon-2TbMdT {
+    color: white;
+}
+
+.headerWave-3sTT0Z {
+    color: transparent;
+}
+
+.topPerksCard-1znJI8,
+.wrapper-2r1p30,
+.innerWrapper-MqFL7z:before,
+.innerWrapper-MqFL7z:after {
+    border: white solid 1.5px;
+}
+
+.bodyWave-wQyWfY path {
+    fill: none !important;
+}
+
+/*  liste d'amis */
+
+.privateChannels-oVe7HL,
+.scroller-WSmht3 {
+    background: none !important;
+}
+
+.itemCard-3Etziu,
+.section-3G9aLW,
+.searchBar-3TnChZ,
+.scroller-WSmht3,
+.overlayBackground-2aa7wt,
+.quickswitcher-pKcM9U {
+    background: black !important;
+}
+
+/* .scrollerBase-1Pkza4{
+    background-color: transparent;
+} */
+
+.itemCard-3Etziu,
+.quickswitcher-pKcM9U {
+    border: white solid 1.5px;
+}
+
+/* autocolant */
+
+.contentWrapper-3vHNP2,
+.wrapper-1NNaWG,
+.inspector-DFKXwB,
+.wrapper-22rqw6,
+.bigPerkCard-1uwmWV,
+.smallPerkCard-2sX_--,
+.innerWrapper-Eo2E86,
+.input-3r5zZY {
+    background: black !important;
+}
+
+.container-1SX9VC,
+.bigPerkCard-1uwmWV,
+.smallPerkCard-2sX_--,
+.innerWrapper-Eo2E86:before,
+.innerWrapper-Eo2E86:after,
+.input-3r5zZY {
+    border: white solid 1.5px !important;
+}
+
+/* bar du haut discord */
+
+.custom-theme-background .withBackgroundOverride-gzmZco.typeWindows-2-g3UY {
+    background: black !important;
+}
+
+/*recherche amis*/
+.inner-2pOSmK,
+.searchBarComponent-3N7dCG,
+.interactiveSelected-29CP8y,
+.inner-NQg18Y,
+.themedBackground-3uF0xW {
+    background: black !important;
+}
+
+.searchBarComponent-3N7dCG {
+    border: solid white 1.5px !important;
+}
+
+.interactiveSelected-29CP8y {
+    border: red solid 1.5px !important;
+}
+
+/* .scroll bar */
+.theme-dark.custom-theme-background .customTheme-3QAYZq.auto-2TJ1RH::-webkit-scrollbar-thumb,
+.theme-dark.custom-theme-background .customTheme-3QAYZq.thin-RnSY0a::-webkit-scrollbar-thumb {
+    background: #1f0000;
+    border: red solid 0.10px;
+
+}
+
+.theme-dark.custom-theme-background .customTheme-3QAYZq.auto-2TJ1RH::-webkit-scrollbar-track {
+    background: black;
+
+}
+
+/*bck folder*/
+.expandedFolderBackground-1kSAf6,
+.scroller-3X7KbA {
+    background: black !important
+}
+
+/*soundboard*/
+.container-1SX9VC,
+.categoryIcon-jiMNyP.selected-21roRy,
+.guildIcon-2SUGiq {
+    background: black;
+}
+
+/*parramétre salon vue ensemble*/
+.lookFilled-GPyucw.select-Zz0IcO {
+    background: black;
+}
+
+.lookFilled-GPyucw.select-Zz0IcO,
+.modal-Z9r_Gm,
+.theme-dark .footer-Ql9fbL,
+.input-3O04eu,
+.temporaryMembershipContainerBackground-13Hf5U {
+    border: white solid 1.5px;
+}
+
+/*selection tps fils*/
+.dropdownOption-F5y4FR {
+    background: black !important;
+}
+
+.option-Uc12mm[aria-selected=true]:not(.option-Uc12mm.multi-2vPqc4) {
+    border: solid red 1.5px;
+    background: black;
+}
+
+.option-Uc12mm,.card-m7VgZ8{
+    background:black !important;
+}
+
+/*integration*/
+.cardPrimary-pAe8Ed.editable-2xfXMr {
+    background: black;
+}
+
+.card-3JmxsM {
+    border: solid white;
+}
+
+/*invitation sur un salon*/
+.lookFilled-1H2Jvj.colorBrand-2M3O3N {
+    border: none
+}
+
+.inputDefault-Ciwd-S {
+    border: none;
+}
+
+.overlayBackground-2aa7wt:has(.nickname-3P1RuO) {
+    background: none !important;
+}
+
+.link-1_kTxV {
+    background: black !important;
+}
+
+/*info useur*/
+.userProfileOuter-2tQwNf {
+    border: solid white 1.5px;
+}
+
+.userPopoutInner-nv9Y92,
+.userProfileOuter-2tQwNf {
+    background: black !important;
+}
+
+/*supprimer un message*/
+.rootWithShadow-2hdL2J,
+.message-G6O-Wv {
+    background: black !important;
+    border: white solid 1.5px;
+}
+
+/*invitation serveur*/
+.submenu-3ycVEH {
+    background: black !important;
+}
+
+/*ban raison other*/
+.banReasonOtherClickable-8EKPlQ {
+    border: solid white 1.5px;
+    background: black;
+    color: white;
+}
+
+/*kick*/
+.item-2OyinQ {
+    background: black;
+}
+
+.selectorButtonSelected-1VZ6hz {
+    border: white solid 1.5px !important;
+}
+
+/*big profil*/
+.overlayBackground-2aa7wt * {
+    color: white;
+}
+
+note-3M15gE {
+    background: black !important;
+    border: whites solid 1.5px !important;
+}
+
+.userProfileInner-1ngKnf:before {
+    background-color: transparent;
+}
+
+.note-1NN2aP textarea:focus {
+    background-color: black;
+    border: white solid 1.5px;
+}
+
+/*chat en appel*/
+.resizeHandle-PBRzPC {
+    background: black;
+    border: var(--soft-border-color) solid 0.1px
+}
+
+/*emojis*/
+.contentWrapper-2f9yME {
+    background: black;
+    border: white solid 1.5px;
+}
+
+/*info useur message*/
+.userPanelInnerThemed-3YO1BB {
+    background: black;
+}
+
+/*message personne bloqué*/
+.wrapper-2SplAX {
+    background: black
+}
+
+/*ami hover*/
+.interactive-iyXY_x {
+    background: black !important;
+}
+
+.interactive-iyXY_x:hover {
+    background: rgb(20, 20, 20) !important;
+}
+
+/*parramétre*/
+/*page profil*/
+.accountProfileCard-lbN7n- {
+    background: black;
+    border: white solid 1.5px;
+}
+
+.background-3d_SjE,
+.fieldList-in8WkP {
+    background-color: black;
+}
+
+.mentioned-Tre-dv {
+    background-color: #0087bd5e !important;
+
+}
+
+.mentioned-Tre-dv:before {
+    background-color: #0087bd !important;
+}
+
+/*event*/
+.header-1sd0RU,
+.card-8UsK4b,
+.card-8UsK4b:hover {
+    background: black;
+}
+
+/*chercher salon*/
+.pageBody-23bo4p,
+.channelRow-4X_3fi {
+    background: black;
+}
+
+/* reply */
+.replyBar-1oi75v,
+.clipContainer-31nYlH {
+    background: black !important;
+}
+
+/* useur */
+.content-1Tgc42:hover {
+    background: var(--main-bg-color) !important;
+}
+
+/* cmd */
+.autocomplete-3NRXG8,.wrapper-3z7DuG{
+    background: var(--main-bg-color) !important;
+}
+
+
+
+/* pour icone didi 
+changer entre deux image 
+troix etape 
+debut : 1ére image rotation = 0°
+en cour : rotation 0° --> 180° , premiére image sur 2seconde 
+fin : rotation 180° chnager sur la seconde image 2seconde de delay sur 0 seconde   #0087bd5e
+*/

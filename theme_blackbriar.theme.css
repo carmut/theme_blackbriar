@@ -1,0 +1,16 @@
+/**
+ * @name blackbriar's theme
+ * @author cloé
+ * @version 0.0.1
+ * @invite 
+ * @description theme for blackbriar currently in beta
+*/
+
+:root {
+    --main-bg-color: black;
+    --main-border-color: white;
+    --secondary-border-color: red;
+    --soft-border-color: rgb(20, 20, 20)
+}
+
+@import url('https://gitlab.com/clo7530828/theme_blackbriar/-/raw/main/testcloe.theme.css');

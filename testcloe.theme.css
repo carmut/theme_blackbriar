@@ -711,7 +711,10 @@ note-3M15gE {
     background: var(--main-bg-color) !important;
 }
 
-
+/* ping everyone */
+.body-2rDNbs,.footer-2aeMle{
+    background: black !important;
+}
 
 /* pour icone didi 
 changer entre deux image 

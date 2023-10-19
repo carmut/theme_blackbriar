@@ -716,6 +716,45 @@ note-3M15gE {
     background: black !important;
 }
 
+/* option */
+
+.notDetected-M3Ghh2,
+.previewMessage-2g_aBv,
+.paymentPane-ut5qKZ,
+.paginator-1eqD2g,
+.payment-2bOh4k,
+.codeRedemptionRedirect-2hYMSQ,
+.promotionCard-mo7ClH,
+.detailsBlock-24pLFz,
+.guildContainer-o60hpj,
+.boostContainer-RzXAwu,
+.wrapper-3htY7x,
+.giftCard-2du1Ac,
+.connectContainer-1hylYM,
+.connection-YOVI9j,
+.connectionHeader-Ixbb1s,
+.metadataContainer-35U-On,
+.cardPrimary-pAe8Ed,
+.container-2WMFjc,
+.container-jV-A82,
+.container-1iKw09,
+.row-XYkFDK,
+.iconContainer-3cz2oI,
+.box-3QCU9H,
+.enableCard-707m1C{
+    background: var(--main-bg-color) !important;
+}
+
+.accountButtonInner-33vCDY,
+.circle-1ip_Nd {
+    background-color: var(--main-bg-color);
+}
+
+.wave-2xQAXR {
+    fill: black;
+}
+
+
 /* pour icone didi 
 changer entre deux image 
 troix etape 

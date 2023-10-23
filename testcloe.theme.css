@@ -1,5 +1,5 @@
 /**
-  * @version 0.0.2
+  * @version 0.1.1
 */
 
 
@@ -763,6 +763,13 @@ note-3M15gE {
     fill: black;
 }
 
+.container-1CH86i{
+    background: var(--main-bg-color) !important;
+}
+
+.form-3qe0Ni:before{
+    background: var(--main-bg-color) !important;
+}
 
 /* pour icone didi 
 changer entre deux image 

@@ -785,3 +785,7 @@ fin : rotation 180° chnager sur la seconde image 2seconde de delay sur 0 second
     border: 1px solid var(--secondary-border-color);
     background-color: #1f0000;
 }
+
+.scroller__52680{
+    background: transparent !important;
+}

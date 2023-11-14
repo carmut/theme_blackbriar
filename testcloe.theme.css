@@ -789,3 +789,37 @@ fin : rotation 180° chnager sur la seconde image 2seconde de delay sur 0 second
 .scroller__52680{
     background: transparent !important;
 }
+
+/* event top */
+.header__7133e{
+    background: black !important;
+}
+
+/* emojie side */
+.wrapper_cd625e{
+    background: black !important;
+}
+
+/* nitro cadeau serveur fond */
+.paymentNote_c68ae0,.wrapper_dae547,.body__59737{
+    background: transparent !important;
+}
+/* separation image / payement */
+.modalHeader_b23047{
+    background-image: none !important;
+}
+
+/* boost serveur 1er panel fond */
+.content__1b8a0,.perks__63e5a{
+    background: transparent !important;
+}
+
+/* repertoire d'app , fond applit  */
+.container__7b33c{
+    background-color: transparent   !important;
+}
+
+/* invitation gens serveur , depuis en haut a gauche */
+.footer__13977{
+    background: transparent !important;
+}
